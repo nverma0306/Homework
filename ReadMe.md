@@ -39,7 +39,7 @@ Mozilla browser should be installed(I am using Version 59.0.2)
 
 >So, when the project is executed as "maven test", the tests inside the test package are executed one by one. Different methods are executed, which calls the methods in the BaseTest class, classes in the main package, corresponding to the page on which the method executes. 
 
->Different values used in the tests are paramterized and kept inside the SmavaConstats class. This makes the framework maintainable as we just need to change the parameter values in this class and the updated parameters would be picked up in the project.
+>Different values used in the tests are paramterized and kept inside the SmavaConstants class. This makes the framework maintainable as we just need to change the parameter values in this class and the updated parameters would be picked up in the project.
 
 > Hamcrest assertions are used inside the project for better verification.
 
